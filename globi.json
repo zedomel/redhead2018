@@ -1,0 +1,34 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url": "interactions.csv",
+    "dcterms:bibliographicCitation" : "Redhead, J.W.; Coombes, C.F.; Dean, H.J.; Dyer, R.; Oliver, T.H.; Pocock, M.J.O.; Rorke, S.L.; Vanbergen, A.J.; Woodcock, B.A.; Pywell, R.F. (2018). Plant-pollinator interactions database for construction of potential networks. NERC Environmental Information Data Centre. https://doi.org/10.5285/6d8d5cb5-bd54-4da7-903a-15bd4bbd531b",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "visitsFlowersOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002622",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "POLLINATOR_NAME",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "PLANT_NAME",
+        "datatype" : "string"
+      }, {
+        "name" : "Group",
+        "titles" : "Group",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
