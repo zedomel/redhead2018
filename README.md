@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/zedomel/redhead2018.svg)](https://travis-ci.com/zedomel/redhead2018) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=zedomel:redhead2018)](http://globalbioticinteractions.org/?accordingTo=zedomel:redhead2018)
+[![Build Status](https://travis-ci.com/zedomel/redhead2018.svg)](https://travis-ci.com/zedomel/redhead2018) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:zedomel/redhead2018)](https://globalbioticinteractions.org/?accordingTo=globi:zedomel/redhead2018)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
